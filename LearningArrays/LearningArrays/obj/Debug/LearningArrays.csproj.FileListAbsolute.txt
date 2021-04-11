@@ -1,7 +1,0 @@
-D:\TUTA\Paskaitos\06 Source Control + Programming\LeaningDotNet\LearningArrays\LearningArrays\bin\Debug\LearningArrays.exe.config
-D:\TUTA\Paskaitos\06 Source Control + Programming\LeaningDotNet\LearningArrays\LearningArrays\bin\Debug\LearningArrays.exe
-D:\TUTA\Paskaitos\06 Source Control + Programming\LeaningDotNet\LearningArrays\LearningArrays\bin\Debug\LearningArrays.pdb
-D:\TUTA\Paskaitos\06 Source Control + Programming\LeaningDotNet\LearningArrays\LearningArrays\obj\Debug\LearningArrays.csprojAssemblyReference.cache
-D:\TUTA\Paskaitos\06 Source Control + Programming\LeaningDotNet\LearningArrays\LearningArrays\obj\Debug\LearningArrays.csproj.CoreCompileInputs.cache
-D:\TUTA\Paskaitos\06 Source Control + Programming\LeaningDotNet\LearningArrays\LearningArrays\obj\Debug\LearningArrays.exe
-D:\TUTA\Paskaitos\06 Source Control + Programming\LeaningDotNet\LearningArrays\LearningArrays\obj\Debug\LearningArrays.pdb

@@ -10,27 +10,15 @@ namespace LearningArrays
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Pradžia");
-            Console.WriteLine();
-            Console.WriteLine("Pirmoji užduotis");
-            Console.WriteLine();
+            Console.WriteLine("Pradžia\n\nPirmoji užduotis\n");
 
-            String[] FiveWords = new String[5];
-            FiveWords[0] = "PirmasAK";
-            FiveWords[1] = "AntrasAK";
-            FiveWords[2] = "TrečiasAK";
-            FiveWords[3] = "KetvirtasAK";
-            FiveWords[4] = "PenktasAK";
-
-            for (int i = 0; i < 5; i++)
+            string[] FiveWords = new String[5]{ "PirmasAK", "AntrasAK", "TrečiasAK", "KetvirtasAK", "PenktasAK" };
+            foreach (string i in FiveWords)
             {
-                Console.WriteLine($"Kelintas čia žodis? -{FiveWords[i]}");
- //             Console.WriteLine("Kelintas čia žodis? -{0}", FiveWords[i]);
+                Console.WriteLine($"Kelintas čia žodis? -{i}");
             }
 
-            Console.WriteLine();
-            Console.WriteLine("Antroji užduotis");
-            Console.WriteLine();
+            Console.WriteLine("\nAntroji užduotis\n");
 
             int[] TwentyNumbersAndAZero = new int[21];
             for (int i = 0; i < 21; i++)
@@ -38,15 +26,12 @@ namespace LearningArrays
                 TwentyNumbersAndAZero[i] = i;
             }
 
-            for (int i = 20; i > (-1); i--)
+            foreach (int i in TwentyNumbersAndAZero.Reverse())
             {
-                Console.WriteLine(TwentyNumbersAndAZero[i]);
+                Console.WriteLine(i);
             }
 
-            Console.WriteLine();
-            Console.WriteLine("Pabaiga");
-            Console.WriteLine();
-            Console.WriteLine("By Aušra K./Owshra");
+            Console.WriteLine("\nPabaiga\n\nBy Aušra K./Owshra");
             Console.ReadKey();
         }
     }
